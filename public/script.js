@@ -53,7 +53,7 @@ app.updateCart();
 
 $('.view-cart').on('click', function () {
   // TODO: hide/show the shopping cart!
-    $('.shopping-cart').addClass('show');
+    $('.shopping-cart').toggle();
 });
 
 $('.add-to-cart').on('click', function () {
